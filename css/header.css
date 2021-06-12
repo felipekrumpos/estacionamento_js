@@ -1,0 +1,19 @@
+#header{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 100px;
+    margin: 2.5rem auto;
+}
+
+#Fast{
+    color: #105788;
+}
+
+#Parking{
+    color: #DBC403;
+}

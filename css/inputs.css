@@ -1,0 +1,22 @@
+.input-form{
+    width: calc(40px + 10vw);
+    height: 30px;
+    padding: 0 3px;
+    font-size: 14px;
+    border-radius: 3px;
+    outline-style: none;
+    border: 1px solid #919191;
+}
+.input-form:focus {
+    border: 2px solid #1fb6ff;
+}
+
+.input-readonly{
+    border-style: none;
+    border-bottom: solid 1px black;
+}
+
+.input-readonly:focus{
+    outline-style: none;
+    border-bottom: solid 1px black;
+}

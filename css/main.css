@@ -1,0 +1,104 @@
+/* TABELA */
+#tableCars {
+    width: 1000px;
+    text-align: center;
+
+    user-select: none;
+    border-collapse: collapse;
+    border: solid 2px black;
+
+    margin: 0 auto;
+}
+
+#tableCars thead th{
+    background-color:#105788;
+}
+
+#tableCars thead th,
+#tableCars tbody td{
+    border: solid 1px black;
+    padding: 13px;
+}
+
+#tableCars thead th:last-child,
+#tableCars tbody td:last-child{
+    max-width: 200px;
+    text-align: center;
+}
+/* ********* */
+/* BOTÕES */
+.button{
+    border-style: none;
+    padding: 0 20px;
+    min-height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.button.red {
+    background-color: #ff4949;
+    border: solid 1px #ff4949;
+
+}
+
+.button.red:hover{
+    background-color: #fff;
+    border: solid 1px #ff4949;
+    color: #ff4949;
+}
+
+.button.blue {
+    background-color: #1fb6ff;
+    border: solid 1px #1fb6ff;
+}
+
+.button.blue:hover{
+    background-color: #fff;
+    border: solid 1px #1fb6ff;
+    color: #1fb6ff;
+}
+
+.button.green {
+    background-color: #13CE66;
+    border: solid 1px #13CE66;
+}
+
+.button.green:hover{
+    background-color: #fff;
+    border: solid 1px #13CE66;
+    color: #13CE66;
+}
+.button.yellow {
+    background-color: #d7db03;
+    border: solid 1px #d7db03;
+}
+
+.button.yellow:hover{
+    background-color: #fff;
+    border: solid 1px #d7db03;
+    color: #d7db03;
+}
+/* ********* */
+/* ********* */
+
+/* ********* */
+/* COMPROVANTES */
+.container-receipt{
+    width: calc(40px + 40vw);
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.container-receipt header{
+    padding: 10px;
+    
+}
+
+.container-receipt h1{
+    border-bottom: solid 1.5px rgba(63, 63, 63, 0.849) ;
+}
